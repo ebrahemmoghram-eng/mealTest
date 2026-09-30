@@ -1,0 +1,10 @@
+{
+  "name": "MOmeter",
+  "description": "MOmeter - تطبيق ذكي لحساب السعرات الحرارية وتتبع النشاط البدني اليومي بالذكاء الاصطناعي مع تصوير الوجبات. Smart AI calorie counter and fitness tracker with meal photo recognition in Arabic and English.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

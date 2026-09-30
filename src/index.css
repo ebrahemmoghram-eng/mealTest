@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-ar: 'Cairo', system-ui, -apple-system, sans-serif;
+    --font-en: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  html[dir="rtl"], [dir="rtl"] {
+    font-family: var(--font-ar);
+  }
+
+  html[dir="ltr"], [dir="ltr"] {
+    font-family: var(--font-en);
+  }
+}
